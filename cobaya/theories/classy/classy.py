@@ -726,7 +726,7 @@ class classy(BoltzmannBase):
         names = ["h", "H0", "Omega_Lambda", "Omega_cdm", "Omega_b", "Omega_m", "Omega_k",
                  "rs_drag", "tau_reio", "z_reio", "z_rec", "tau_rec", "m_ncdm_tot",
                  "Neff", "YHe", "age", "conformal_age", "sigma8", "sigma8_cb",
-                 "theta_s_100"]
+                 "theta_s_100","log10f_scf","log10m_scf"]
         for name, mapped in self.renames.items():
             if mapped in names:
                 names.append(name)
